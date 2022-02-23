@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  forex-arbitrage-frontend:
+    container_name: forex-arbitrage-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    ports:
+      - '3000:80'

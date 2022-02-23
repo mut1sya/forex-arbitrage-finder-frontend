@@ -1,0 +1,9 @@
+build
+node_modules
+Dockerfile*
+.dockerignore
+docker-compose*
+.env
+.git*
+.eslintrc.yml
+README.md

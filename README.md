@@ -40,3 +40,12 @@ To run the app in production mode, run:
 This will generate a build folder with  css and js files with can be served with nginx 
 
 
+### 5. Using docker-compose
+
+To run the application using docker-compose run the command below:
+
+    docker-compose up -d --build  
+
+The app will be started  at:    
+
+    http://localhost:3000
