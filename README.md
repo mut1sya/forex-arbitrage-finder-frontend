@@ -17,7 +17,9 @@ clone the application to your working directory.
 
 We need to configure the `REACT_APP_ARBITRAGE_API_URL` which specifies where to find our api.
 create a `.env` file in the project root directory and add the following key:
+
 `REACT_APP_ARBITRAGE_API_URL`=backend-api-url
+
 an example of this is shown below:
 
     REACT_APP_ARBITRAGE_API_URL=http://localhost:9000
